@@ -27,3 +27,6 @@ fn test_main_args() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
+
+// cargo test -- --nocapture --test cli_two
+// cargo test --test cli_two
